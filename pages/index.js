@@ -1,7 +1,12 @@
 import Head from "next/head";
-import Header from "../components/Header";
 
-export default function Home() {
+import Header from "../components/Header";
+import Nav from "../components/Nav";
+import Results from "../components/Results";
+import requests from "../utils/requests";
+
+export default function Home({ results }) {
+  // console.log(results);
   return (
     <div>
       <Head>
@@ -13,7 +18,28 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Nav */}
+      <Nav />
       {/* Results */}
+      <Results results={results} />
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  const genre = context.query.genre;
+
+  // Use image.tmdb.org API
+  const url_to_fetch = `https://api.themoviedb.org/3${
+    requests[genre]?.url || requests.fetchTrending.url
+  }`;
+
+  // console.log(url_to_fetch);
+
+  const request = await fetch(url_to_fetch).then((res) => res.json());
+
+  return {
+    props: {
+      results: request.results,
+    },
+  };
 }
