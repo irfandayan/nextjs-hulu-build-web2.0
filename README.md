@@ -7,5 +7,5 @@
     <li>Tailwind Scrollbar Hide</li>
     <li>tmdb.org API</li>
     <li>Hero Icons</li>
-    <li> React Flib Move</li>
+    <li> React Flip Move</li>
   </ul>

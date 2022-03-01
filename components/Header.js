@@ -23,6 +23,7 @@ const Header = () => {
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
       <Image
+        alt=""
         className="object-contain"
         src="/images/logo.svg"
         width={120}
