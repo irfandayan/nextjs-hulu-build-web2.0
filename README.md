@@ -1,4 +1,4 @@
-<h2><a href="/">Live Site</a></h2>
+<h2><a href="https://hulu-rebuild-web2-0.vercel.app/">Live Site</a></h2>
   
   <h2>Tech:</h2>
   <ul>
