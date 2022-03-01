@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     id="svg3372"
+     viewBox="0 0 500.00001 168.04521"
+     height="168.04521"
+     width="500">
+    <defs
+         id="defs3374">
+        <clipPath
+             id="clipPath3350"
+             clipPathUnits="userSpaceOnUse">
+            <path
+                 id="path3352"
+                 d="M 0,170 320,170 320,0 0,0 0,170 Z" />
+        </clipPath>
+    </defs>
+    <metadata
+         id="metadata3377">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+         transform="translate(-170.33145,-407.70729)"
+         id="layer1">
+        <g
+             id="g3346"
+             transform="matrix(2.2916667,0,0,-2.2916667,53.664549,692.25188)">
+            <g
+                 clip-path="url(#clipPath3350)"
+                 id="g3348">
+                <g
+                     transform="translate(85.9521,100.872)"
+                     id="g3354">
+                    <path
+                         id="path3356"
+                         style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                         d="m 0,0 -11.003,0 c -3.858,0 -5.798,-1.041 -5.798,-1.041 l 0,23.242 -17.151,0 0,-71.146 17.151,0 0,28.709 c 0,2.539 2.06,4.595 4.597,4.595 l 9.982,0 c 2.541,0 4.595,-2.056 4.595,-4.595 l 0,-28.709 17.156,0 0,30.931 C 19.529,-5.006 10.857,0 0,0 m 164.892,0 0,-28.705 c 0,-2.543 -2.055,-4.6 -4.594,-4.6 l -9.981,0 c -2.541,0 -4.595,2.057 -4.595,4.6 l 0,28.705 -17.159,0 0,-30.137 c 0,-12.318 7.883,-18.808 19.534,-18.808 l 16.797,0 0,0.088 c 10.73,0 17.154,7.636 17.154,18.72 l 0,30.137 -17.156,0 z m -96.77,-28.705 c 0,-2.543 -2.057,-4.6 -4.596,-4.6 l -9.982,0 c -2.541,0 -4.596,2.057 -4.596,4.6 l 0,28.705 -17.156,0 0,-30.137 c 0,-12.318 7.883,-18.808 19.533,-18.808 l 16.797,0 0,0.088 c 10.731,0 17.156,7.636 17.156,18.72 l 0,30.137 -17.156,0 0,-28.705 z m 30.231,-20.24 17.158,0 0,71.147 -17.158,0 0,-71.147 z" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
